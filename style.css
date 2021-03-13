@@ -1,0 +1,74 @@
+.card{
+    cursor: pointer;
+    transition-duration: 0.75s;
+}
+.card:hover{
+    background-color: blueviolet;
+    opacity: 1;
+    
+    
+}
+.blink_me {
+    animation: blinker 1s linear infinite;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -5px;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+    
+  }
+
+.card-img-top{
+    width: 250px;
+    height: 250px;
+}  
+.intro{
+    margin-left: 15px;
+    font-weight: bolder;
+    color: wheat;
+}
+.card{
+    background-color: blueviolet;
+    opacity: 0.55;
+}
+
+.fotcol{
+    color: white;
+    font-size: 30px;
+}
+.colorAll{
+    color: white;
+    font-size: 20px;
+}
+.Hstyle{
+    color: rgb(50, 60, 205);
+}
+.container{
+    margin-top: 150px;
+
+}
+.caga{
+    color: black;
+    font-size: 40px;
+}
+
+.form{
+    background-color: blue;
+}
+.form-group{
+    background-color: blue;
+
+}
+.btnD{
+    width: 400px;
+    height:40px ;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: chartreuse;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
