@@ -4,7 +4,7 @@ lomi.onclick = function(){
 }
 let kuro = document.querySelector('#kuro')
 kuro.onclick = function(){
-    window.location.pathname = "/kuro.html";
+    window.location.pathname = "/zodiac/kuro.html";
 }
 let merwyuli = document.querySelector('#merwyuli')
 merwyuli.onclick = function(){
