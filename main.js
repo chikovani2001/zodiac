@@ -1,10 +1,10 @@
 let lomi = document.querySelector('#lomi')
 lomi.onclick = function(){
-    window.location.pathname = "/lomi.html";
+    window.location.href = "/lomi.html";
 }
 let kuro = document.querySelector('#kuro')
 kuro.onclick = function(){
-    window.location.pathname = "/kuro.html";
+    window.location.href = "/kuro.html";
 }
 let merwyuli = document.querySelector('#merwyuli')
 merwyuli.onclick = function(){
