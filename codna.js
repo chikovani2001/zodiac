@@ -37,7 +37,7 @@ function chekFunc(){
         elem.innerText =  `შენი ზოდიაქოს ნიშანი ${vari} არის - ვერძი`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem, target);
-    }else if(variable == "მარტი" & numberi  >= 20 | variable == "აპრილი" & numberi <= 20){
+    }else if(variable == "აპრილი" & numberi  >= 20 | variable == "მაისი" & numberi <= 20){
         const elem = document.createElement('p');
         elem.style.color = 'blue';
         elem.style.fontSize = '15px';
